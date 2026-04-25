@@ -1,0 +1,213 @@
+{
+  "nav": { "home": "Acasă", "services": "Servicii", "pricing": "Prețuri", "gallery": "Galerie", "contact": "Contact", "shop": "Magazin" },
+  "common": { "bookNow": "Programează-te", "ourServices": "Serviciile noastre", "ourService": "Serviciul nostru", "getStarted": "Începe" },
+  "hero": {
+    "title": "Spălare Auto Premium &\nDetailing",
+    "subtitle": "Servicii profesionale și opțiuni self-service disponibile",
+    "cta1": "Programează-te",
+    "cta2": "Serviciile noastre"
+  },
+  "services": {
+    "title": "Serviciile noastre",
+    "subtitle": "Alege între servicii complete sau opțiuni self-service",
+    "cards": {
+      "full": { "title": "Spălare completă", "desc": "Curățare completă exterior/interior de către echipa noastră. Relaxează-te, noi facem mașina să strălucească." },
+      "self": { "title": "Self-service", "desc": "Boxe self-service moderne cu presiune înaltă, perie cu spumă și aspiratoare." },
+      "detail": { "title": "Detailing premium", "desc": "Curățare profundă și restaurare: ceară, polish și șamponare interior." }
+    }
+  },
+  "pricing": {
+    "title": "Prețuri simple, transparente",
+    "subtitle": "Alege pachetul potrivit pentru mașina ta",
+    "plans": {
+      "self": { "name": "Self-Service", "tagline": "Perfect pentru pasionații DIY", "price": "$8", "unit": "per spălare", "features": ["Spălare cu presiune", "Aplicare spumă", "Clătire fără pete", "Acces aspirator", "Fără limită de timp"] },
+      "express": { "name": "Spălare Express", "tagline": "Rapid și eficient pentru exterior", "price": "$25", "unit": "per spălare", "features": ["Spălare manuală exterior", "Curățare & luciu roți", "Curățare geamuri", "Uscare rapidă", "Odorizant", "15 minute"] },
+      "premium": { "name": "Detail Premium", "tagline": "Detailing complet interior/exterior", "price": "$89", "unit": "per serviciu", "features": ["Tot din Express", "Aspirare & șamponare", "Îngrijire piele", "Ceară & polish", "Curățare compartiment motor", "Restaurare faruri"] }
+    }
+  },
+  "why": {
+    "title": "De ce SparkleWash?",
+    "subtitle": "Oferim cea mai bună experiență de îngrijire auto",
+    "items": {
+      "open": { "title": "Deschis 24/7", "desc": "Self-service disponibil non-stop pentru confortul tău." },
+      "eco": { "title": "Eco-Friendly", "desc": "Folosim soluții biodegradabile și reciclare a apei." },
+      "staff": { "title": "Echipă expertă", "desc": "Profesioniști pregătiți pentru calitate maximă." },
+      "guarantee": { "title": "Garanția satisfacției", "desc": "Nu ești mulțumit? Re-spălăm gratuit." }
+    }
+  },
+  "testimonials": {
+    "title": "Ce spun clienții noștri",
+    "subtitle": "Află părerea clienților mulțumiți",
+    "cards": [
+      { "name": "Sarah Johnson", "role": "Antreprenor", "text": "SparkleWash este uimitor! Atenția la detalii este incredibilă." },
+      { "name": "Michael Chen", "role": "IT", "text": "Îmi place self-service! Pot veni oricând. Totul este mereu curat." },
+      { "name": "Emily Rodriguez", "role": "Marketing", "text": "Detailing-ul premium mi-a depășit așteptările. Merită fiecare bănuț!" },
+      { "name": "David Thompson", "role": "Pensionar", "text": "Personal prietenos și practici eco. Recomand cu încredere." }
+    ]
+  },
+  "gallery": { "title": "Galerie Înainte & După", "subtitle": "Vezi transformările incredibile", "before": "ÎNAINTE", "after": "DUPĂ" },
+  "contact": {
+    "title": "Vizitează-ne astăzi",
+    "subtitle": "Ne găsești la locație sau ne poți suna",
+    "location": "Locație",
+    "phone": "Telefon",
+    "email": "Email",
+    "hours": "Program",
+    "fullHours": "Full-Service: Lun-Sâm 8:00-18:00, Dum 9:00-16:00",
+    "selfHours": "Self-Service: Deschis 24/7",
+    "send": "Trimite-ne un mesaj",
+    "fields": { "name": "Nume", "email": "Email", "phone": "Telefon", "message": "Mesaj" },
+    "placeholders": { "name": "Numele tău", "email": "email@exemplu.com", "phone": "(555) 123-4567", "message": "Cu ce te putem ajuta?" },
+    "sendBtn": "Trimite mesaj"
+  },
+  "book": {
+    "title": "Programează o vizită",
+    "subtitle": "Programează online spălarea sau detailing-ul",
+    "confirm": "Confirmă programarea",
+    "notes": "Note adiționale (opțional)",
+    "notesPh": "Cerințe speciale sau detalii despre mașină...",
+    "fields": { "fullName": "Nume complet", "email": "Email", "phone": "Telefon", "vehicle": "Tip vehicul", "service": "Serviciu", "date": "Data preferată", "time": "Ora preferată" },
+    "opts": {
+      "vehicle": ["Alege tipul", "Sedan", "SUV", "Truck", "Van", "Mașină sport"],
+      "service": ["Alege un serviciu", "Express Wash", "Premium Detail", "Interior Only"],
+      "time": ["Alege ora", "9:00", "10:00", "11:00", "13:00", "14:00", "15:00"]
+    }
+  },
+  "footer": { "tagline": "Serviciu de spălare și detailing de încredere din 2010.", "quickLinks": "Linkuri rapide", "followUs": "Urmărește-ne", "services": "Servicii", "rights": "Toate drepturile rezervate." },
+  "auth": {
+    "access": {
+      "badge": "Acces Unificat",
+      "title": "Un singur flux de autentificare pentru clienți, angajați și administratori.",
+      "subtitle": "Alege rolul, autentifică-te cu contul potrivit și te trimitem în spațiul corespunzător."
+    },
+    "backToSite": "Înapoi la site",
+    "demoCredentials": "Credențiale demo",
+    "adminManaged": "Conturile de admin sunt gestionate intern.",
+    "fields": {
+      "name": "Nume complet",
+      "email": "Email",
+      "phone": "Telefon",
+      "password": "Parolă",
+      "confirmPassword": "Confirmă parola"
+    },
+    "placeholders": {
+      "name": "Alex Spark"
+    },
+    "login": {
+      "title": "Autentificare",
+      "loading": "Se autentifică...",
+      "submit": "Accesează contul",
+      "noAccount": "Nu ai cont?",
+      "register": "Înregistrează-te aici"
+    },
+    "register": {
+      "chooseType": "Alege tipul de cont",
+      "loading": "Se creează contul...",
+      "hasAccount": "Ai deja cont?",
+      "login": "Autentifică-te"
+    },
+    "roles": {
+      "customer": {
+        "eyebrow": "Acces Client",
+        "title": "Programează și gestionează vizitele",
+        "description": "Folosește contul de client pentru programări rapide și acces la vizitele viitoare."
+      },
+      "employee": {
+        "eyebrow": "Acces Angajat",
+        "title": "Deschide spațiul de lucru al echipei",
+        "description": "Gestionează boxele, programările și urmărirea clienților din dashboard-ul angajaților."
+      },
+      "admin": {
+        "eyebrow": "Consolă Admin",
+        "title": "Control operațional securizat",
+        "description": "Gestionează locațiile, testimonialele, programările și mesajele din zona de administrare."
+      }
+    },
+    "registerRoles": {
+      "customer": {
+        "eyebrow": "Înregistrare Client",
+        "title": "Creează un cont de client",
+        "description": "Salvează programările mai rapid și păstrează istoricul vizitelor într-un singur loc."
+      },
+      "employee": {
+        "eyebrow": "Înregistrare Angajat",
+        "title": "Creează un cont de angajat",
+        "description": "Configurează autentificarea pentru note de tură, programări și operațiuni zilnice."
+      }
+    },
+    "registerAdmin": {
+      "title": "Conturi Admin",
+      "description": "Înregistrarea admin este dezactivată aici. Folosește pagina de login și alege rolul de admin.",
+      "link": "Deschide login admin"
+    },
+    "errors": {
+      "emailExists": "Există deja un cont cu acest email.",
+      "invalidCredentials": "Email sau parolă incorectă.",
+      "passwordMismatch": "Parolele nu coincid.",
+      "passwordTooShort": "Parola trebuie să aibă cel puțin 6 caractere."
+    }
+  },
+  "account": {
+    "badge": "Cont Client",
+    "title": "Bine ai revenit, {{name}}",
+    "subtitle": "Contul tău este pregătit pentru programări rapide, detalii despre vizite și acces la profil.",
+    "name": "Nume",
+    "email": "Email",
+    "bookWash": "Programează o spălare",
+    "exploreServices": "Vezi serviciile",
+    "quickActions": "Acțiuni rapide",
+    "fasterBooking": "Programare mai rapidă",
+    "fasterBookingDesc": "Datele tale rămân disponibile pentru următoarea programare.",
+    "support": "Ai nevoie de ajutor?",
+    "supportDesc": "Contactează-ne din pagina de contact și menționează emailul acestui cont.",
+    "logout": "Deconectare"
+  },
+  "employee": {
+    "caption": "Spațiu intern pentru operațiunile echipei, programări și urmărirea mesajelor clienților.",
+    "workspace": "Spațiu de lucru",
+    "dashboardLink": "Dashboard Angajați",
+    "title": "Portal Angajat",
+    "subtitle": "Instrumente pregătite pentru tură, programări, boxe și notițe pentru clienți.",
+    "viewSite": "Vezi site-ul",
+    "logout": "Ieșire",
+    "signedIn": "Autentificat",
+    "fallbackName": "Angajat",
+    "checklist": "Checklist Tură",
+    "stats": {
+      "bookings": "Programări Azi",
+      "bookingsNote": "4 sosiri în următoarea oră",
+      "bays": "Boxe Libere",
+      "baysNote": "2 full-service, 1 detailing",
+      "messages": "Mesaje",
+      "messagesNote": "2 necesită apel înapoi"
+    },
+    "tasks": {
+      "one": "Confirmă programarea de detailing premium de la 10:30 pentru Elena T.",
+      "two": "Reumple detergentul eco în boxa self-service 2.",
+      "three": "Verifică două mesaje de la clienți care așteaptă actualizare."
+    }
+  },
+  "admin": {
+    "title": "Panou Admin",
+    "signIn": "Autentifică-te pentru a gestiona spălătoria",
+    "email": "Email",
+    "password": "Parolă",
+    "login": "Autentificare",
+    "demo": "Date demo:",
+    "sidebar": { "dashboard": "Dashboard", "locations": "Locații", "bookings": "Programări", "messages": "Mesaje", "testimonials": "Recenzii", "logout": "Ieșire" },
+    "viewWebsite": "Vezi site-ul",
+    "dash": { "welcome": "Bine ai revenit! Iată ce se întâmplă azi.", "bookings": "Programări", "customers": "Clienți", "revenue": "Venit", "rating": "Rating mediu", "recent": "Programări recente" },
+    "bookingsPage": { "title": "Programări", "subtitle": "Gestionează toate programările", "search": "Caută după nume, email sau telefon...", "filter": "Toate" },
+    "messagesPage": { "title": "Mesaje", "unread": "mesaje necitite", "reply": "Răspunde", "del": "Șterge" },
+    "testimonialsPage": { "title": "Recenzii", "approved": "aprobate", "pending": "în așteptare", "add": "Adaugă", "approve": "Aprobă", "edit": "Editează", "delete": "Șterge" }
+  },
+  "errors": {
+  "name": "Introdu numele complet.",
+  "email": "Introdu un email valid.",
+  "phone": "Introdu un număr de telefon valid.",
+  "vehicle": "Selectează tipul vehiculului.",
+  "service": "Selectează un serviciu.",
+  "date": "Selectează o dată.",
+  "time": "Selectează o oră."
+    }
+}
