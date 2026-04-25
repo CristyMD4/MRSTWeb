@@ -1,0 +1,270 @@
+{
+  "nav": { "home": "Home", "services": "Services", "pricing": "Pricing", "gallery": "Gallery", "contact": "Contact", "shop": "Shop" },
+  "common": { "bookNow": "Book Now", "ourServices": "Our Services", "ourService": "Our Service", "getStarted": "Get Started" },
+  "hero": {
+    "title": "Premium Car Wash &\nDetailing",
+    "subtitle": "Professional service and self-service options available",
+    "cta1": "Book Now",
+    "cta2": "Our Services"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Choose from professional full-service or convenient self-service options",
+    "cards": {
+      "full": {
+        "title": "Full-Service Wash",
+        "desc": "Complete exterior and interior cleaning by our professional team. Sit back and relax while we make your car shine."
+      },
+      "self": {
+        "title": "Self-Service Wash",
+        "desc": "State-of-the-art self-service bays equipped with high-pressure washers, foam brushes, and vacuum stations."
+      },
+      "detail": {
+        "title": "Premium Detailing",
+        "desc": "Deep cleaning and restoration services including waxing, polishing, and interior shampooing."
+      }
+    }
+  },
+  "pricing": {
+    "title": "Simple, Transparent Pricing",
+    "subtitle": "Choose the perfect package for your car care needs",
+    "plans": {
+      "self": {
+        "name": "Self-Service",
+        "tagline": "Perfect for DIY car care enthusiasts",
+        "price": "$8",
+        "unit": "per wash",
+        "features": ["High-pressure wash", "Foam brush application", "Spot-free rinse", "Vacuum station access", "No time limit"]
+      },
+      "express": {
+        "name": "Express Wash",
+        "tagline": "Quick and thorough exterior cleaning",
+        "price": "$25",
+        "unit": "per wash",
+        "features": ["Exterior hand wash", "Tire cleaning & shine", "Window cleaning", "Quick dry service", "Air freshener", "15-minute service"]
+      },
+      "premium": {
+        "name": "Premium Detail",
+        "tagline": "Complete interior and exterior detailing",
+        "price": "$89",
+        "unit": "per service",
+        "features": ["Everything in Express", "Interior vacuum & shampoo", "Leather conditioning", "Wax & polish", "Engine bay cleaning", "Headlight restoration"]
+      }
+    }
+  },
+  "why": {
+    "title": "Why Choose SparkleWash?",
+    "subtitle": "We're committed to providing the best car care experience",
+    "items": {
+      "open": { "title": "Open 24/7", "desc": "Our self-service bays are available around the clock for your convenience." },
+      "eco": { "title": "Eco-Friendly", "desc": "We use biodegradable soaps and water recycling systems to protect the environment." },
+      "staff": { "title": "Expert Staff", "desc": "Our trained professionals ensure the highest quality service every time." },
+      "guarantee": { "title": "Satisfaction Guaranteed", "desc": "Not happy with the results? We'll rewash your car for free." }
+    }
+  },
+  "testimonials": {
+    "title": "What Our Customers Say",
+    "subtitle": "Don't just take our word for it - hear from our satisfied customers",
+    "cards": [
+      {
+        "name": "Sarah Johnson",
+        "role": "Business Owner",
+        "text": "SparkleWash is absolutely amazing! They've been taking care of my car for over a year now. The attention to detail is incredible, and my car always looks brand new when I pick it up."
+      },
+      {
+        "name": "Michael Chen",
+        "role": "Tech Professional",
+        "text": "I love the self-service option! Open 24/7 means I can wash my car whenever it fits my schedule. The equipment is always well-maintained and the facilities are spotless."
+      },
+      {
+        "name": "Emily Rodriguez",
+        "role": "Marketing Manager",
+        "text": "The premium detailing service exceeded my expectations. They got stains out of my seats that I thought were permanent. Worth every penny!"
+      },
+      {
+        "name": "David Thompson",
+        "role": "Retired Teacher",
+        "text": "Professional, friendly staff and eco-friendly practices. I appreciate that they care about the environment while providing top-notch service."
+      }
+    ]
+  },
+  "gallery": { "title": "Before & After Gallery", "subtitle": "See the incredible transformations we deliver", "before": "BEFORE", "after": "AFTER" },
+  "contact": {
+    "title": "Visit Us Today",
+    "subtitle": "Find us at our convenient location or give us a call",
+    "location": "Location",
+    "phone": "Phone",
+    "email": "Email",
+    "hours": "Hours",
+    "fullHours": "Full-Service: Mon-Sat 8am-6pm, Sun 9am-4pm",
+    "selfHours": "Self-Service: Open 24/7",
+    "send": "Send Us a Message",
+    "fields": { "name": "Name", "email": "Email", "phone": "Phone", "message": "Message" },
+    "placeholders": { "name": "Your name", "email": "your@email.com", "phone": "(555) 123-4567", "message": "How can we help you?" },
+    "sendBtn": "Send Message"
+  },
+  "book": {
+    "title": "Book Your Appointment",
+    "subtitle": "Schedule your car wash or detailing service online",
+    "confirm": "Confirm Booking",
+    "notes": "Additional Notes (Optional)",
+    "notesPh": "Any special requests or concerns about your vehicle...",
+    "fields": {
+      "fullName": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "vehicle": "Vehicle Type",
+      "service": "Select Service",
+      "date": "Preferred Date",
+      "time": "Preferred Time"
+    },
+    "opts": {
+      "vehicle": ["Select vehicle type", "Sedan", "SUV", "Truck", "Van", "Sports Car"],
+      "service": ["Choose a service", "Express Wash", "Premium Detail", "Interior Only"],
+      "time": ["Select time", "9:00 AM", "10:00 AM", "11:00 AM", "1:00 PM", "2:00 PM", "3:00 PM"]
+    }
+  },
+  "footer": {
+    "tagline": "Your trusted car wash and detailing service since 2010.",
+    "quickLinks": "Quick Links",
+    "followUs": "Follow Us",
+    "services": "Services",
+    "rights": "All rights reserved."
+  },
+  "auth": {
+    "access": {
+      "badge": "Unified Access",
+      "title": "One login flow for customers, employees, and admins.",
+      "subtitle": "Choose your role, sign in with the right account, and we will send you to the matching workspace."
+    },
+    "backToSite": "Back to site",
+    "demoCredentials": "Demo Credentials",
+    "adminManaged": "Admin accounts are managed internally.",
+    "fields": {
+      "name": "Full name",
+      "email": "Email",
+      "phone": "Phone",
+      "password": "Password",
+      "confirmPassword": "Confirm password"
+    },
+    "placeholders": {
+      "name": "Alex Spark"
+    },
+    "login": {
+      "title": "Sign in",
+      "loading": "Signing in...",
+      "submit": "Access account",
+      "noAccount": "Need an account?",
+      "register": "Register here"
+    },
+    "register": {
+      "chooseType": "Choose Account Type",
+      "loading": "Creating account...",
+      "hasAccount": "Already have an account?",
+      "login": "Sign in"
+    },
+    "roles": {
+      "customer": {
+        "eyebrow": "Customer Access",
+        "title": "Book and manage wash appointments",
+        "description": "Use your customer account to save bookings and stay in sync with your next visit."
+      },
+      "employee": {
+        "eyebrow": "Employee Access",
+        "title": "Open the staff workspace",
+        "description": "Track bays, bookings, and customer follow-up from the employee dashboard."
+      },
+      "admin": {
+        "eyebrow": "Admin Console",
+        "title": "Secure operational control",
+        "description": "Manage locations, testimonials, bookings, and messages from the admin area."
+      }
+    },
+    "registerRoles": {
+      "customer": {
+        "eyebrow": "Customer Registration",
+        "title": "Create a customer account",
+        "description": "Save bookings faster and keep your visit history in one place."
+      },
+      "employee": {
+        "eyebrow": "Employee Registration",
+        "title": "Create a staff account",
+        "description": "Set up a staff login for shift notes, bookings, and daily operations."
+      }
+    },
+    "registerAdmin": {
+      "title": "Admin Accounts",
+      "description": "Admin registration is disabled here. Use the login page and choose the admin role.",
+      "link": "Open admin login"
+    },
+    "errors": {
+      "emailExists": "An account with this email already exists.",
+      "invalidCredentials": "Invalid email or password.",
+      "passwordMismatch": "Passwords do not match.",
+      "passwordTooShort": "Password must be at least 6 characters."
+    }
+  },
+  "account": {
+    "badge": "Customer Account",
+    "title": "Welcome back, {{name}}",
+    "subtitle": "Your account is ready for quick bookings, visit details, and profile access.",
+    "name": "Name",
+    "email": "Email",
+    "bookWash": "Book a Wash",
+    "exploreServices": "Explore Services",
+    "quickActions": "Quick Actions",
+    "fasterBooking": "Faster booking",
+    "fasterBookingDesc": "Your customer info stays available for the next time you schedule a visit.",
+    "support": "Need support?",
+    "supportDesc": "Reach out through the contact page and mention the email on this account.",
+    "logout": "Log out"
+  },
+  "employee": {
+    "caption": "Internal workspace for staff operations, appointments, and customer support follow-up.",
+    "workspace": "Workspace",
+    "dashboardLink": "Staff Dashboard",
+    "title": "Employee Portal",
+    "subtitle": "Shift-ready tools for bookings, wash bays, and customer handoff notes.",
+    "viewSite": "View Site",
+    "logout": "Log Out",
+    "signedIn": "Signed In",
+    "fallbackName": "Employee",
+    "checklist": "Shift Checklist",
+    "stats": {
+      "bookings": "Today Bookings",
+      "bookingsNote": "4 arrivals in the next hour",
+      "bays": "Open Bays",
+      "baysNote": "2 full-service, 1 detailing",
+      "messages": "Messages",
+      "messagesNote": "2 require callback"
+    },
+    "tasks": {
+      "one": "Confirm 10:30 premium detail booking for Elena T.",
+      "two": "Refill eco detergent in self-service bay 2.",
+      "three": "Review two customer messages waiting for a status update."
+    }
+  },
+  "admin": {
+    "title": "Admin Panel",
+    "signIn": "Sign in to manage your car wash",
+    "email": "Email Address",
+    "password": "Password",
+    "login": "Sign In",
+    "demo": "Demo credentials:",
+    "sidebar": { "dashboard": "Dashboard", "locations": "Locations", "bookings": "Bookings", "messages": "Messages", "testimonials": "Testimonials", "logout": "Logout" },
+    "viewWebsite": "View Website",
+    "dash": { "welcome": "Welcome back! Here's what's happening today.", "bookings": "Total Bookings", "customers": "Customers", "revenue": "Revenue", "rating": "Avg Rating", "recent": "Recent Bookings" },
+    "bookingsPage": { "title": "Bookings", "subtitle": "Manage all customer appointments", "search": "Search by customer name, email, or phone...", "filter": "All Bookings" },
+    "messagesPage": { "title": "Messages", "unread": "unread messages", "reply": "Reply", "del": "Delete" },
+    "testimonialsPage": { "title": "Testimonials", "approved": "approved", "pending": "pending review", "add": "Add Testimonial", "approve": "Approve", "edit": "Edit", "delete": "Delete" }
+  },
+  "errors": {
+  "name": "Please enter your full name.",
+  "email": "Please enter a valid email.",
+  "phone": "Please enter a valid phone number.",
+  "vehicle": "Please select vehicle type.",
+  "service": "Please select a service.",
+  "date": "Please select a date.",
+  "time": "Please select a time."
+    }
+}
