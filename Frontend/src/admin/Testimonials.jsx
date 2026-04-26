@@ -1,4 +1,5 @@
 import React, { useMemo, useState } from "react";
+import { useTranslation } from "react-i18next";
 import { addTestimonial, deleteTestimonial, listTestimonials, uid, updateTestimonial } from "../lib/storage";
 
 function Stars({ n }) {
@@ -12,6 +13,7 @@ function Stars({ n }) {
 }
 
 export default function AdminTestimonials() {
+  const { t } = useTranslation();
   const [rows, setRows] = useState(listTestimonials());
   const [modal, setModal] = useState(null);
 

@@ -1,10 +1,13 @@
 import React from "react";
-import { Outlet } from "react-router-dom";
+import { Navigate, Outlet } from "react-router-dom";
+import { getClientSession } from "../lib/clientAuth";
 
 export default function ClientRoute() {
-  return (
-    <div>
-      <Outlet />
-    </div>
-  );
+  const session = getClientSession();
+
+  if (!session?.token) {
+    return <Navigate to="/login" replace />;
+  }
+
+  return <Outlet />;
 }
