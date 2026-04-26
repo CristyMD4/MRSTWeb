@@ -27,7 +27,7 @@ import AdminShopProducts from "./admin/ShopProducts";
 import EmployeeLayout from "./employee/EmployeeLayout";
 import EmployeeDashboard from "./employee/Dashboard";
 import ClientRoute from './components/ClientRoute'
-import MyBooking from './pages/MyBooking'
+import MyBookings from './pages/MyBookings'
 
 function App() {
   return (
@@ -63,7 +63,7 @@ function App() {
         <Route path="dashboard" element={<EmployeeDashboard />} />
       </Route>
       <Route element={<ClientRoute />}>
-       <Route path="/my-bookings" element={<MyBooking />} />
+       <Route path="/my-bookings" element={<MyBookings />} />
       </Route>
    </Routes>
    </CartProvider>

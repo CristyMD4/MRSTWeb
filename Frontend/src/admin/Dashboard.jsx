@@ -161,9 +161,8 @@ function calcStats(bookings) {
   return { total: bookings.length, byStatus, revenue, topService, svcCount };
 }
 
-function relTime(ts, nowTs) {
-  if (!ts || !nowTs) return "-";
-  const diff = Math.max(0, nowTs - ts);
+function relTime(ts) {
+  const diff = Date.now() - ts;
   const minutes = Math.floor(diff / 60000);
 
   if (minutes < 2) return "just now";
@@ -176,15 +175,8 @@ function relTime(ts, nowTs) {
 
 export default function AdminDashboard() {
   const [selected, setSelected] = useState(() => getAdminLocation());
-  const [nowTs, setNowTs] = useState(0);
 
   useEffect(() => subscribeAdminLocation(setSelected), []);
-  useEffect(() => {
-    const updateNow = () => setNowTs(Date.now());
-    updateNow();
-    const id = setInterval(updateNow, 60000);
-    return () => clearInterval(id);
-  }, []);
 
   const locations = useMemo(() => listLocations(), []);
   const allBookings = useMemo(() => listBookings(), []);
@@ -215,19 +207,19 @@ export default function AdminDashboard() {
     const items = [
       ...filteredBookings.slice(0, 5).map((booking) => ({
         label: `Booking from ${booking.fullName || booking.name || "-"} · ${booking.service || "-"}`,
-        time: relTime(booking.at, nowTs),
+        time: relTime(booking.at || Date.now()),
         ts: booking.at || 0,
         type: "booking",
       })),
       ...messages.slice(0, 3).map((message) => ({
         label: `Message from ${message.name || "-"}: "${(message.message || "").slice(0, 40)}..."`,
-        time: relTime(message.at, nowTs),
+        time: relTime(message.at || Date.now()),
         ts: message.at || 0,
         type: "message",
       })),
     ];
     return items.sort((a, b) => b.ts - a.ts).slice(0, 8);
-  }, [filteredBookings, messages, nowTs]);
+  }, [filteredBookings, messages]);
 
   const completedRate = stats.total ? Math.round(((stats.byStatus.completed || 0) / stats.total) * 100) : 0;
   const maxServiceCount = Math.max(...Object.values(stats.svcCount || {}), 1);

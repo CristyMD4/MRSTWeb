@@ -7,9 +7,10 @@ function ymd(d) {
 export default function CalendarMini({ bookings = [], onSelectDate }) {
   const [cursor, setCursor] = useState(() => new Date());
 
+  const monthStart = new Date(cursor.getFullYear(), cursor.getMonth(), 1);
+  const monthEnd = new Date(cursor.getFullYear(), cursor.getMonth() + 1, 0);
+
   const days = useMemo(() => {
-    const monthStart = new Date(cursor.getFullYear(), cursor.getMonth(), 1);
-    const monthEnd = new Date(cursor.getFullYear(), cursor.getMonth() + 1, 0);
     const start = new Date(monthStart);
     start.setDate(start.getDate() - ((start.getDay() + 6) % 7)); // monday start
     const end = new Date(monthEnd);
