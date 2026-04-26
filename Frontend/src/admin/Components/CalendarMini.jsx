@@ -7,8 +7,14 @@ function ymd(d) {
 export default function CalendarMini({ bookings = [], onSelectDate }) {
   const [cursor, setCursor] = useState(() => new Date());
 
-  const monthStart = new Date(cursor.getFullYear(), cursor.getMonth(), 1);
-  const monthEnd = new Date(cursor.getFullYear(), cursor.getMonth() + 1, 0);
+  const monthStart = useMemo(
+    () => new Date(cursor.getFullYear(), cursor.getMonth(), 1),
+    [cursor],
+  );
+  const monthEnd = useMemo(
+    () => new Date(cursor.getFullYear(), cursor.getMonth() + 1, 0),
+    [cursor],
+  );
 
   const days = useMemo(() => {
     const start = new Date(monthStart);
@@ -23,7 +29,7 @@ export default function CalendarMini({ bookings = [], onSelectDate }) {
       cur.setDate(cur.getDate() + 1);
     }
     return out;
-  }, [cursor]);
+  }, [monthEnd, monthStart]);
 
   const counts = useMemo(() => {
     const map = new Map();
