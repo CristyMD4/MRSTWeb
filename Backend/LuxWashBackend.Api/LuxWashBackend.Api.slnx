@@ -1,3 +1,6 @@
 <Solution>
+  <Project Path="../LuxWashBackend.Business/LuxWashBackend.Business.csproj" Id="ea5c59be-8219-490e-9ac5-929156594a94" />
+  <Project Path="../LuxWashBackend.Data/LuxWashBackend.Data.csproj" Id="457b7a57-3b0e-4aab-b454-89f6d9a22627" />
+  <Project Path="../LuxWashBackend.Domain/LuxWashBackend.Domain.csproj" Id="fe080f21-e058-4af2-be50-dcc99ede6240" />
   <Project Path="LuxWashBackend.Api.csproj" />
 </Solution>
