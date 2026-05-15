@@ -6,4 +6,13 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\LuxWashBackend.Data\LuxWashBackend.Data.csproj" />
+    <ProjectReference Include="..\LuxWashBackend.Domain\LuxWashBackend.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BCrypt.Net-Next" Version="4.1.0" />
+  </ItemGroup>
+
 </Project>
