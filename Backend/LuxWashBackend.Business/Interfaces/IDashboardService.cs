@@ -1,4 +1,4 @@
-﻿using LuxWashBackend.Domain.DTOs;
+using LuxWashBackend.Domain.DTOs;
 
 namespace LuxWashBackend.Business.Interfaces
 {
