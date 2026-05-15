@@ -1,4 +1,4 @@
-﻿namespace LuxWashBackend.Domain.Constants
+namespace LuxWashBackend.Domain.Constants
 {
     public static class AppRoles
     {
