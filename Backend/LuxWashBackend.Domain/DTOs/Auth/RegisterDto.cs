@@ -2,11 +2,11 @@ using System.ComponentModel.DataAnnotations;
 
 namespace LuxWashBackend.Domain.DTOs
 {
-    public class CreateContactMessageDto
+    public class RegisterDto
     {
         [Required]
         [StringLength(120, MinimumLength = 2)]
-        public string Name { get; set; } = "";
+        public string FullName { get; set; } = "";
 
         [Required]
         [EmailAddress]
@@ -14,7 +14,8 @@ namespace LuxWashBackend.Domain.DTOs
         public string Email { get; set; } = "";
 
         [Required]
-        [StringLength(2000, MinimumLength = 10)]
-        public string Message { get; set; } = "";
+        [MinLength(8)]
+        [StringLength(128)]
+        public string Password { get; set; } = "";
     }
 }
